@@ -12,9 +12,9 @@ public class HowManyNumbersAreSmallerThanTheCurrentNumber_1365 {
         int[] ans = new int[num.length];
         for (int i = 0; i < num.length; i++) {
             int count = 0;
-            for (int j = 0; j < num.length; j++) {
-                if (num[i] > num[j]){
-                    count ++;
+            for (int k : num) {
+                if (num[i] > k) {
+                    count++;
                 }
             }
             ans[i] = count;
