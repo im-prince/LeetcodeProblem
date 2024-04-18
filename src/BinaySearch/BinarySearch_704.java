@@ -7,11 +7,9 @@ public class BinarySearch_704 {
         int target=22;
         int ans=search(arr,target);
         System.out.println(ans);
-
     }
 
     static int search(int[] nums, int target) {
-
         int start = 0;
         int end = nums.length-1;
         while (start<=end) {
@@ -20,12 +18,10 @@ public class BinarySearch_704 {
                 end=mid-1;
             } else if (target>nums[mid]) {
                 start=mid+1;
-
             }else {
                 return mid;
             }
         }
         return -1;
     }
-
 }

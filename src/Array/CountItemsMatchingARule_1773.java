@@ -13,10 +13,8 @@ public class CountItemsMatchingARule_1773 {
         String color = "color" ;
         String name = "name" ;
 
-        if(ruleKey.equals(type))
-        {
-            for(int i = 0 ; i < items.size() ; i++)
-            {
+        if(ruleKey.equals(type)){
+            for(int i = 0 ; i < items.size() ; i++){
                 List<String> list = items.get(i) ;
                 String val = list.get(0);
                 if(  ruleValue.equals(val)  )
