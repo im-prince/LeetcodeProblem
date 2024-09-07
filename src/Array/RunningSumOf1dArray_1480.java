@@ -8,11 +8,11 @@ public class RunningSumOf1dArray_1480 {
 
     }
 
-    static int[] runningSum(int[] num) {
-        for (int i = 0; i < num.length -1; i++) {
-            num[i + 1] = num[i] + num[i+1];
+    static int[] runningSum(int[] nums) {
+        for (int i = 0; i < nums.length -1; i++) {
+            nums[i + 1] = nums[i] + nums[i+1];
 
         }
-        return num;
+        return nums;
     }
 }
