@@ -1,9 +1,14 @@
 package Array;
 
+import java.util.Arrays;
+
 public class FlippingAnImage_832 {
+    public static void main(String[] args) {
+
+    }
 
 
-    public int[][] flipAndInvertImage(int[][] image) {
+    static int[][] flipAndInvertImage(int[][] image) {
         for (int i = 0; i < image.length; i++) {
             int a = 0, r = image[0].length - 1;
             while (a <= r) {
@@ -24,6 +29,5 @@ public class FlippingAnImage_832 {
             }
         }
         return image;
-
     }
 }

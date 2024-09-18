@@ -15,11 +15,7 @@ public class RotateArray_189 {
         for (int i = 0; i < num.length; i++) {
             int newIndex = (i+k)% num.length;
             ans[newIndex] = num[i];
-
-
-
         }
-
         // assign back to original array
         for(int i = 0; i < num.length; i++) {
             num[i] = ans[i];
