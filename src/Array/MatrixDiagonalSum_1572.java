@@ -5,7 +5,7 @@ public class MatrixDiagonalSum_1572 {
         int[][] matt = {
                 {1,2,3},
                 {4,5,6},
-                {7,8,9},
+                {7,8,8},
         };
 
         int ans = diagonalSum(matt);
