@@ -3,9 +3,6 @@ package Array;
 import java.util.Arrays;
 
 public class FlippingAnImage_832 {
-    public static void main(String[] args) {
-
-    }
 
 
     static int[][] flipAndInvertImage(int[][] image) {
