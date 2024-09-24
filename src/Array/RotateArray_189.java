@@ -19,7 +19,6 @@ public class RotateArray_189 {
         // assign back to original array
         for(int i = 0; i < num.length; i++) {
             num[i] = ans[i];
-
         }
 
     }
