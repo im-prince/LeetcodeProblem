@@ -8,8 +8,6 @@ public class ShuffleTheArray_1470 {
         int n = 3;
         System.out.println(Arrays.toString(shuffle(nums,n)));
     }
-
-
     static int[] shuffle(int[] nums, int n) {
         int[] ans = new int[2*n];
         int i=0, j=n;
