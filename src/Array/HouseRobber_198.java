@@ -7,7 +7,6 @@ public class HouseRobber_198 {
         System.out.println(ans);
     }
     static int rob(int[] num) {
-
         int rob = 0;
         int norob = 0;
         for (int i = 0; i < num.length; i ++) {
