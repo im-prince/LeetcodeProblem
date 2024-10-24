@@ -3,13 +3,13 @@ package LinkedList;
 public class MiddleOfTheLinkedList_876 {
     class Node {
         int node;
-        ReverseLinkedList_206.Node next;
+        Node next;
 
         public Node(int node) {
             this.node = node;
         }
 
-        public Node(int node, ReverseLinkedList_206.Node next) {
+        public Node(int node, Node next) {
             this.node = node;
             this.next = next;
         }
